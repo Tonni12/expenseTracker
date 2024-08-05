@@ -63,71 +63,71 @@ class MainWindow(object):
         self.name = QtWidgets.QLabel(self.signupframe)
         self.name.setGeometry(QtCore.QRect(50, 131, 49, 20))
         self.name.setStyleSheet("color: #2e7d32;\n"
-"background-color: #fef4f6;\n"
-"padding-right: 3px;\n"
-"text-align: Justify;\n"
-"padding-top: 2px;\n"
-"padding-bottom: 2px;")
+            "background-color: #fef4f6;\n"
+            "padding-right: 3px;\n"
+            "text-align: Justify;\n"
+            "padding-top: 2px;\n"
+            "padding-bottom: 2px;")
         self.name.setObjectName("name")
         self.email = QtWidgets.QLabel(self.signupframe)
         self.email.setGeometry(QtCore.QRect(50, 180, 49, 21))
         self.email.setStyleSheet("color: #2e7d32;\n"
-"background-color: #fef4f6;\n"
-"padding-right: 3px;\n"
-"text-align: Justify;\n"
-"padding-top: 2px;\n"
-"padding-bottom: 2px;")
+            "background-color: #fef4f6;\n"
+            "padding-right: 3px;\n"
+            "text-align: Justify;\n"
+            "padding-top: 2px;\n"
+            "padding-bottom: 2px;")
         self.email.setObjectName("email")
         self.password = QtWidgets.QLabel(self.signupframe)
         self.password.setGeometry(QtCore.QRect(50, 230, 61, 21))
         self.password.setStyleSheet("color: #2e7d32;\n"
-"background-color: #fef4f6;\n"
-"padding-right: 4px;\n"
-"text-align: Justify;\n"
-"padding-top: 2px;\n"
-"padding-bottom: 2px;\n"
-"")
+            "background-color: #fef4f6;\n"
+            "padding-right: 4px;\n"
+            "text-align: Justify;\n"
+            "padding-top: 2px;\n"
+            "padding-bottom: 2px;\n"
+            "")
         self.password.setObjectName("password")
         self.exitinguser = QtWidgets.QLabel(self.signupframe)
         self.exitinguser.setGeometry(QtCore.QRect(50, 380, 81, 21))
         self.exitinguser.setStyleSheet("color: #2e7d32;\n"
-"background-color: #fef4f6;\n"
-"padding-right: 3px;\n"
-"text-align: Justify;\n"
-"padding-top: 2px;\n"
-"padding-bottom: 2px;\n"
-"")
+            "background-color: #fef4f6;\n"
+            "padding-right: 3px;\n"
+            "text-align: Justify;\n"
+            "padding-top: 2px;\n"
+            "padding-bottom: 2px;\n"
+            "")
         self.exitinguser.setObjectName("exitinguser")
         self.signinbutton = QtWidgets.QPushButton(self.signupframe)
         self.signinbutton.setGeometry(QtCore.QRect(150, 380, 75, 24))
         self.signinbutton.setStyleSheet("text-align: center;\n"
-"background-color: #f1f7f4;\n"
-"border-radius: 5px;\n"
-"border: 1px solid #ffffff;\n"
-"color: #2e7d32;\n"
-"font-weight: 500px;")
+            "background-color: #f1f7f4;\n"
+            "border-radius: 5px;\n"
+            "border: 1px solid #ffffff;\n"
+            "color: #2e7d32;\n"
+            "font-weight: 500px;")
         self.signinbutton.setObjectName("signinbutton")
         self.signupbutton = QtWidgets.QPushButton(self.signupframe)
         self.signupbutton.setGeometry(QtCore.QRect(280, 340, 75, 24))
         self.signupbutton.setStyleSheet("text-align: center;\n"
-"background-color: #2e7d32;\n"
-"border-radius: 2px;\n"
-"border: 1px solid #ffffff;\n"
-"color: #ffffff;\n"
-"font-weight: Bold;")
+            "background-color: #2e7d32;\n"
+            "border-radius: 2px;\n"
+            "border: 1px solid #ffffff;\n"
+            "color: #ffffff;\n"
+            "font-weight: Bold;")
         self.signupbutton.setObjectName("signupbutton")
         self.label = QtWidgets.QLabel(self.signupframe)
         self.label.setGeometry(QtCore.QRect(150, 30, 81, 31))
         self.label.setStyleSheet("font: \"Futura Bk BT\";\n"
-"font-size: 12.5pt ;\n"
-"color: #2e7d32;\n"
-"background-color: #ffffff;\n"
-"font-weight: BOLD;\n"
-"border: 1px solid #f6fef3;\n"
-"border-radius: 5px;\n"
-"padding: 3px 2px;\n"
-"align: center;\n"
-"")
+            "font-size: 12.5pt ;\n"
+            "color: #2e7d32;\n"
+            "background-color: #ffffff;\n"
+            "font-weight: BOLD;\n"
+            "border: 1px solid #f6fef3;\n"
+            "border-radius: 5px;\n"
+            "padding: 3px 2px;\n"
+            "align: center;\n"
+            "")
         self.label.setObjectName("label")
         self.signupframe.raise_()
         self.confirmpasswd.raise_()
